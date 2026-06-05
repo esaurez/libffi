@@ -39,6 +39,7 @@ _BUILD_DIR = "i686-pc-nanvix"
 _OUTPUT_FILES = [
     "ffi_test.elf",
     f"{_BUILD_DIR}/.libs/libffi.a",
+    f"{_BUILD_DIR}/.libs/libffi.so",
     f"{_BUILD_DIR}/include/ffi.h",
     f"{_BUILD_DIR}/include/ffitarget.h",
 ]
